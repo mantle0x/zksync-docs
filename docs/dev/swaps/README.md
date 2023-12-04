@@ -12,7 +12,7 @@ Atomic swaps let you safely and cheaply swap funds with an existing zkSync accou
 
 There are 3 steps required to successfully make a swap:
 
-- Sign an order that confirms that you want perform a certain swap
+- Sign an order that confirms that you want to perform a certain swap
 - Acquire a signed order of the same format from the account that you want to swap with
 - Submit both orders with a fee to the zkSync server
 
