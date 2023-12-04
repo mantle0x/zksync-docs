@@ -54,7 +54,7 @@ Anyone can submit 2 orders for a swap if they meet the following limitations:
 
 - orders have matching tokens: if `orderA` specifies `tokenA -> tokenB`, then `orderB` should specify `tokenB -> tokenA`
 - ratios in orders are compatible: `1/orderB.ratio <= orderA.amount/orderB.amount <= orderA.ratio`
-- if orders have recipients, their accounts already exist in zkSync
+- if orders specify recipients, those accounts must already exist in zkSync
 
 Fee is paid by the submitter, and the token it is paid in should be specified. After a swap is executed, nonce is
 incremented on both swapping accounts and the submitter. If swap was submitted from one of the swapping accounts, nonce
