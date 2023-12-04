@@ -8,7 +8,7 @@ sidebarDepth: 3
 
 This section explains principles of sending transactions into the zkSync network.
 
-Provided examples are written in JavaScript, but aren't tied to any certain SDK.
+Provided examples are written in JavaScript, but are not specific to any particular SDK.
 
 [[toc]]
 
