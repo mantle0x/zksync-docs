@@ -118,7 +118,7 @@ For `data` field definitions, refer to the [documentation](../../api/events/#Eve
 Let's see how to implement a message handler.
 
 ```typescript
-// The test account we're intrested in.
+// The test account we're interested in.
 const ACCOUNT_ADDRESS = '0x7ca2113e931ada26f64da66822ece493f20059b6';
 
 ws.on('message', function (message) {
@@ -158,7 +158,7 @@ async function main() {
   // Connect to the event server.
   const ws = new WebSocket('wss://events.zksync.io/');
   console.log('Connection established');
-  // Change the address to the account you're intrested in.
+  // Change the address to the account you're interested in.
   const ACCOUNT_ADDRESS = '0x7ca2113e931ada26f64da66822ece493f20059b6';
 
   // Once connected, start sending ping frames.
